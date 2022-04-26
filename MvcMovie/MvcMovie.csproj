@@ -3,7 +3,6 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
 	  <!-- If necessary, to eliminate the warnings from nullable reference types, remove the following line from the MvcMovie.csproj file: -->
-    <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
