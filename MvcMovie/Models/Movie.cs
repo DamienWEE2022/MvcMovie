@@ -9,7 +9,13 @@ namespace MvcMovie.Models
 
         [DataType(DataType.Date)]
         public DateTime ReleaseDate { get; set; }
+<<<<<<< Updated upstream
         public string? Genre { get; set; }
+=======
+        public string? Location { get; set; }
+        
+        [Column(TypeName = "decimal(18, 2)")]
+>>>>>>> Stashed changes
         public decimal Price { get; set; }
     }
 }
